@@ -36,6 +36,12 @@ Navigate to the `server` folder and start the back end:
 cd server
 go run server.go
 ```
+Hot reload by air
+```sh
+go install github.com/cosmtrek/air@latest
+cd server
+air
+```
 The back end will serve on http://localhost:8080.
 
 Navigate to the `webapp` folder, install dependencies,
